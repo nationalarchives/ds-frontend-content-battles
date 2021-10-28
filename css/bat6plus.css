@@ -1,0 +1,362 @@
+
+hr.table {
+	border-top : dotted thin  #e8e1bb;
+	border-right: none;
+	border-bottom: none;
+	border-left:none;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	clear: both;
+}
+label {
+	font-style: normal;
+}
+
+label.radiocheck {
+font-weight:bold;
+cursor:pointer; 
+}
+
+.bodytext {
+	font-style: normal;
+	font-weight: normal;
+}
+	
+.bodymargindottybox{
+	margin: 3px 10px 10px 5%;
+}
+
+ul.landingtext {
+	font-size: 80%;
+	padding: 0px;
+	margin: 5px;
+	text-align: left;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	}
+
+h1.parchmentheading {
+	vertical-align: top;
+}
+
+h1.parchment{
+	margin: 10px 0px 0px 0px;
+}
+
+/*coded like this to work with ie6+, ie5+ - degrades in ie4 - dotty underline doesn't work. You can get it to work, but only if ie5 then has 2 underlines! */
+
+h2.redanddots a:visited{
+	margin : 0px;
+}
+h2.redanddots a:link{
+	margin : 0px;
+}
+h2.redanddots a:active{
+	margin : 0px;
+}
+h2.redanddots a:hover{
+	margin : 0px;
+}
+
+/* h3.bigblack is used where structurally an h3 is needed but visually an h2 eg family history landing pages */
+h3.bigblack {
+	margin : 2px 0px 0px 0px;
+}
+	
+ul.famhist {
+	font-size: 80%;
+	padding: 0px;
+	margin: 5px;
+	text-align: left;
+}
+
+p.bullet {
+	background-image: url(/images/global/bullet_red.gif) ;
+	background-position : left;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 10px;
+	font-size: 80%;
+	margin: 0px 0px 0px 10px;
+}
+
+ol {
+	list-style: decimal  outside;
+}
+	
+.event {
+	padding: 0px;
+	vertical-align: top;
+	}
+
+.tablenooutline {
+	width: 100%;
+	clear: both;
+}
+
+.tablewithoutline {
+	border: 1px solid #cccccc;
+	width: 100%;
+}
+
+.tabbody {
+	padding: 0px 2% 0px 2%;
+}
+
+img.tabbutton {
+	margin:  0px 2px 0px 0px;
+}
+
+img.tabbuttonright {
+	margin:  0px 0px 0px 2px;
+}
+
+a.plainblackb:visited{
+	padding: 2px 0px 2px 0px;
+}
+
+a.plainblackb:link{
+	padding: 2px 0px 2px 0px;
+}
+a.plainblackb:hover{
+	padding: 2px 0px 2px 0px;
+}
+a.plainblackb:active{
+	padding: 2px 0px 2px 0px;
+}
+
+.search{
+	text-align: right;
+}
+
+.rightbutton {
+	float: right;
+}
+/*footer styles */
+#footer{
+	padding : 5px;
+}
+.footertext {
+	font-family:  Arial, Helvetica, Verdana,sans-serif;
+	font-size:80%;
+}
+/* end of footer styles */
+
+.paleparchfiller{
+	padding: 0px;
+	background-color: #fbf9ec;
+}
+.parchnoborder{
+	background-color : #e8e1bb;
+}
+
+/*used on th headings in resource directories - template 2x */
+.resource {
+	padding: 0px;
+	margin : 0px;
+}
+
+/*used on Getting Started and Family history landing pages etc */
+.noleftbodytext{
+	margin : 5px 10px 10px 0px;
+}
+
+form.getstartjump {
+	padding: 0px 0px 5px 5px;
+}
+
+.quicklinksbox {
+	background-color: #fbf9ec;
+	color : #000000;
+	border: solid 1px #f1edd5;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+}
+	
+img.thumbpopright{
+	margin : 3px 0px 0px 5px;
+	}
+
+	.lightbulbparch {
+	border : thin dotted #000000;
+	margin: 2px 3px 2px 3px;
+	padding:5px;
+	vertical-align: top;
+	background-color: #fbf9ec;
+}
+
+/* START help - template 4 */
+
+.glossarybg {
+	padding: 5px;
+	margin: 3px 0px 3px 0px;
+	}
+	
+/* END help - template 4 */
+
+.trafancestorsbg{
+	width: 96%; 
+	margin: 5px 2% 0 2%; 
+}
+
+/* START OF Global Search */
+
+#linksToSearchForms {
+	display: none;
+}
+
+
+#tnaSearchWrapper {
+	position: relative;
+}
+
+#tnaSearchWrapper form {
+	padding: 0.5em;
+	display: none;
+	overflow: visible;
+}
+
+#linksToSearchForms {
+	margin-bottom: 1em;
+	color: #777;
+}
+
+#linksToSearchForms a {
+	margin: 0 5px;
+}
+
+#tnaSearchWrapper form label {
+	display: none;
+}
+
+#searchFormOptions {
+	background-color: #EFEFEF;
+	border: 1px solid #CDCDCD;
+	border-top-color: transparent;
+	width: 40%;
+	padding: 0.5em;
+	position: absolute;
+	left: 6em;
+	top: 2.6em;
+	*left: 6.75em;
+	*top: 2.2em;
+	text-align: left;
+	z-index: 999999;
+}
+
+#searchFormOptions.noJavaScript {
+	display: none;
+}
+
+
+#searchOptions li {
+	cursor: pointer;
+	color: #444;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+
+
+#searchOptions li:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+#otherSearches a:hover {
+	text-decoration: underline;
+}
+
+#containingBox {
+	display: inline-block;
+	border: 1px solid #898989;
+	border-radius: 0px 3px 3px 0px;
+	background-color: #fff;
+	padding: 0;
+	height: 23px;
+}
+
+#tnaSearch {
+	outline: none;
+	padding: 3px 3px 2px 3px;
+	border: 1px solid transparent;
+	margin: 0;
+	width: 14em;
+	color: #333;
+	vertical-align: top;
+	margin-right: -5px;
+}
+
+
+#searchOptionToggler {
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	margin-top: 4px;
+	padding-right: 16px;
+}
+
+#searchOptionToggler.collapsed {
+	width: 11.2em;
+	text-align: right;
+	margin-right: 0.4em;
+	cursor: pointer;
+	background: url("/images/global/more.png") no-repeat scroll right center transparent;
+}
+
+#searchOptionToggler.expanded {
+	width: 11.2em;
+	text-align: right;
+	cursor: pointer;
+	margin-right: 0.4em;
+	background: url("/images/global/less.png") no-repeat scroll right center transparent;
+}
+
+#userControls {
+color: #777;
+font-size: 0.9em;
+_position: relative;
+}
+
+
+	#userControls {
+		position: absolute;
+		top: 3em;
+		text-align: right;
+		right: 1em;
+	}
+
+	#tnaSearchWrapper form {
+		position: absolute;
+		top: -10px;
+		right: 10px;
+		_right: -450px;
+		width: 32em;
+		display: block;
+		background: rgb(254,254,254); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(239,239,239,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(100%,rgba(239,239,239,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+		border: 1px solid #CDCDCD;
+		border-top-color: #EFEFEF;
+		border-radius: 0 0 2px 2px;
+	}
+
+	#searchOptionToggler {
+		color: #383838;
+	}
+
+div.search-refinements {
+	display: none;
+}
+
+
+
+/*END OF Global search*/

@@ -1,0 +1,1017 @@
+body         {    font-family:Verdana,Arial,Geneva,Helvetica,sans-serif; color:#000000; margin:0 auto; padding:0 13px 0 14px; font-size:0.75em; line-height:150%;background:url(/images/global/body-bg.jpg) top center repeat-y  ; width:960px; }
+h1 {font:1.6em/150%  Verdana, Arial, Helvetica,sans-serif normal; }
+h2 { font: 1.2em/150% Verdana, Arial, Helvetica,sans-serif bold; margin:0 0 8px 0;}
+h3 {font: 1.3em/150% Verdana, Arial, Helvetica,sans-serif bold; }
+h4 {font: 1.2em/150% Verdana, Arial, Helvetica,sans-serif bold;}
+textarea {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link{
+	color : #663333;
+}
+
+th {
+	text-align : left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+td{
+	text-align: left;
+}
+
+.legendforns4{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #cc0000;
+}
+
+.bodymargin {
+	padding: 5px;
+	clear: both;
+	}
+	
+.bodymargindottybox {
+	padding: 5px;
+	clear: both;
+	}
+	
+.bodytext {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+}
+
+h3.bodytext {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+.queryis {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+}
+
+.mainbodytext {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	}
+	
+.noleftbodytext{
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+}
+	
+.landingtext {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	}
+	
+.landingtext ul {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	}
+.landingtext ol {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	}
+.lastamended{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+	color: #999999;
+}
+.parchlandingtext {
+	
+	background: #fbf9ec;
+}
+
+div.lightbulb {
+	border : solid 1px #000000;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+div.hplightbulb {
+	padding: 5px;
+	background-color: #ffffff;
+}
+	
+.currentcrumb {
+    font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+}
+
+.breadcrumbsbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+}
+.parchmentfiller {
+	background-color: #e8e1bb;
+	padding: 7px;
+	border: solid 1px #e8e1bb;
+	}
+.parchmentnav {
+	background-color : #e8e1bb;
+	}
+.parchnoborder{
+	background-color : #e8e1bb;
+}
+
+h1 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight : bold;
+	color : #000000;
+	}
+h1 a:link{
+	font-weight: bold;
+	text-decoration: none;
+	color : #000000;
+}
+h1.parchment {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight : bold;
+	color : #663333;
+}
+
+h1.parchmentheading {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight : bold;
+	color : #663333;
+}
+
+h1.leftheading {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight : bold;
+	color : #000000;
+}
+h1.leftheading a:link{
+	text-decoration: none;
+	}
+
+h2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	}
+	
+h2 a:link{
+	text-decoration: none;
+	color : #000000;
+}
+
+/*coded like this to work with ie6+, ie5+ - degrades in ie4 - dotty underline doesn't work. You can get it to work, but only if ie5 then has 2 underlines! */
+
+h2.redanddots a:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	background-color: #fbf9ec;
+	clear: both;
+	}
+	
+h2.redanddots a:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	background-color: #fbf9ec;
+	clear: both;
+	}
+h2.redanddots{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	background-color: #fbf9ec;
+	clear: both;
+	}
+.red{
+	color : #cc0000;
+}
+h3 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight : bold;
+	color : #663333;
+	}
+	
+h3 a:link{
+	text-decoration: none;
+	color : #663333;
+}
+
+h3.redbold{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color : #cc0000;
+	font-weight: bold;
+	padding-top: 2px;
+}
+/* h3.black is used in tables where there are 2 header rows one after another */
+h3.black {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+}
+/* h3.bigblack is used where structurally an h3 is needed but visually an h2 eg family history landing pages */
+h3.bigblack {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+}
+
+h3.redboldlightbulb{
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	color : #cc0000;
+	font-weight: bold;
+	padding-top: 1px;
+	clear: both;
+}
+h4 {
+	font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	font-weight : bold;
+	}
+.toprightdiv{
+	padding: 10px;
+	width: 170px;
+}
+
+/*left menu, divs within it  and link and selection styles*/
+#leftmenu{
+	background-color: #fbf9ec;
+	/*border: solid 1px #ffffff;*/
+	padding : 5px;
+	}
+	
+.leftmenu{
+	background-color: #fbf9ec;
+	}
+	
+.trafalgarnav {
+	background-color: #fbf9ec;
+}
+.crimeanav {
+	background-color: #fbf9ec;
+}
+.egyptnav {
+	background-color: #fbf9ec;
+}
+.ddaynav {
+	background-color: #fbf9ec;
+}
+.koreanav {
+	background-color: #fbf9ec;
+}
+.ancestorsnav {
+	background-color: #fbf9ec;
+}
+	
+.level0 {
+	background-color : #fbf9ec;
+	color: #000000;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	
+}
+
+.level1 {
+	background-color : #fbf9ec;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	
+	margin-left: 35px;
+}
+
+.level1lastinlist {
+	background-color : #fbf9ec;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	
+	margin-left: 35px;
+	}
+	
+.level2 {
+	background-color : #fbf9ec;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.level2current{
+	color: #663333;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+. level1 level2  {
+	
+}
+
+.level1lastinlist level2 {
+	
+}
+
+a.leftmenu{
+	font-family :  Arial, Verdana, Geneva,Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	background-color : #fbf9ec;
+	color : #000000;
+}
+
+.leftmenucurrent{
+	background-color : #fbf9ec;
+	font-weight: bold;
+	color : #000000;
+	text-decoration: none;
+	}
+	
+.leftmenusubcurrent{
+	background-color : #fbf9ec;
+	font-weight : bold;
+	color: #000000;
+	text-decoration: none;
+	}
+/*end of left menu styles */
+
+.rustbackground {
+	background-color: #663333;
+}
+
+#contentmain {
+	clear: both;
+}
+
+.date {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #666633;
+	text-align: right;
+}
+.caption {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	color: #663333;
+}
+.captionportrait {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	color: #663333;
+}
+.captionthumb{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	color: #666633;
+}
+.captionthumbcent{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	color: #663333;
+}
+
+.topevent {
+	background-color: #fbf9ec;
+	color : #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif
+}
+.event {
+	background-color: #fbf9ec;
+	color : #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	border: solid 2px #ffffff;
+	}
+	
+.bottomevent {
+	background-color: #fbf9ec;
+	color : #000000;
+	}
+	
+.jumpmenu{
+	background-color: #fbf9ec;
+	color : #000000;
+	border : solid 1px #fbf9ec;
+	padding: 5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif
+}
+
+.topdata {
+	background-color: #e8e1bb;
+/*	color : #000000; */
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+}
+.data {
+	background-color: #e8e1bb;
+/*	color : #000000; */
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+	}
+	
+.data ul {
+	
+}
+.data ol {
+	
+}
+.data p{
+	
+}
+.bottomdata {
+	background-color: #e8e1bb;
+/*	color : #000000; */
+	}
+a.breadcrumbs{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+	color : #000000;
+	}
+	
+a.topofpage {
+	font-family :  Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+	text-align: right;
+}
+
+.blacknodec{
+	text-decoration: none;
+	color : #000000;
+}
+a.blacknodec{
+	text-decoration: none;
+	color : #000000;
+}
+.boldleft {
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	font-weight: bold;
+}
+.topmenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+}
+a.topmenu{
+	text-decoration: none;
+	color : #000000;
+}
+a.leftmenusubcurrent{
+	font-weight : bold;
+	color: #663333;
+	text-decoration: none;
+}
+.invisiblewhite{
+	color : #ffffff;
+}
+#menu{
+	margin: 0px;
+	padding: 0px;
+}
+.nav {
+	background-color: #cc0000;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+	.plainblackb{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+
+	a.plainblackb{
+	text-decoration: none;
+	color : #000000;
+}
+
+/* page numbers */
+.currentpage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+}
+a.pagenumbers{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+	text-decoration:underline;
+}
+
+/* end of page numbers*/
+
+ul {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	
+	color: #000000;
+}
+ul ul{
+	
+}
+
+ul ol{
+	
+}
+ol ul{
+	
+}
+ul ul ul{
+	
+}
+ol {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	
+	color: #000000;
+}
+ol ol{
+	
+}
+ol ol ol{
+	
+}
+
+li{
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	
+	color: #000000;
+}
+
+li.mainbodytext{
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+hr {
+	color: #000000;
+	clear : both;
+}
+
+blockquote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #663333;
+}
+
+.rightbutton {
+	color: #FFFFFF;
+}
+
+#breadcrumb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	
+	color: #000000;
+	padding: 3px;
+}
+	h2.resulttext {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+h2.resulttext a:visited {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+h2.resulttext a:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+
+p.resulttext {
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+}
+
+p.bullet {
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+}
+
+.paleparchfiller{
+	background-color: #fbf9ec;
+}
+.pagebacknext {
+	padding: 10px;
+}
+.gobuttonintable{
+	padding : 5px;
+	border: solid 1px #fbf9ec;
+	background-color: #fbf9ec;
+}
+/* footer styles */
+#footer{
+	background-color: #fbf9ec;
+	text-align: center;
+	padding : 5px;
+}
+.footerfiller{
+	background:  url("/images/global/biscuit_gradient.gif") #fbf9ec;
+	text-align: center;
+}	
+.footertext {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+}
+.footer{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	}
+a.footer{
+	text-decoration: none;
+	color : #000000;
+}
+/* end of footer styles */
+
+/*	.thindots {
+	background : url(../images/smalldots.gif) ;
+}*/
+
+.parchmentline {
+	background: #fbf9ec;
+}
+.barbedline {
+	background: #fbf9ec;
+}
+
+.khakibackground {
+	background-color: #e8e1bb;
+	}
+	
+.nextbacktext{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.nextbacktext{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color : #000000;
+}
+
+.righttext {
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+	text-align: right;
+}
+.right{
+	text-align: right;
+}
+
+.sevenpxtop{
+	padding-top: 7px;
+}
+
+/* this did have text decoration underline and blue colour*/
+.normalweight {
+	text-decoration: none;
+	color : #000000;
+	font-weight: normal;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif	
+}
+
+a.normalweight{
+	text-decoration: underline;
+	color : #663333;
+	font-weight: normal;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif
+}
+
+.normalweightnosize {
+	text-decoration: none;
+	color : #000000;
+	font-weight: normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif		
+}
+
+#printlogo {
+	display: none;
+}
+.parchdotsdivider {
+	background: url(../images/pixels/dots_parch_trans.gif);
+}
+
+.quicklinks {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+a.quicklinks {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+.index {
+	padding: 2px;
+}
+
+ol.letter {
+	list-style-type : lower-alpha;
+}
+
+ol.letter ol {
+	list-style-type : lower-roman;
+}
+
+.transcripttext{
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	
+	}
+	/* used on trafalgar roll results */
+h2.darkbrown {
+	color: #330000;
+}
+p.darkbrownresulttext {
+	color: #330000;
+	font-family:Verdana, Arial, Helvetica, sans-serif
+	
+}
+
+th p.darkbrownresulttext {
+	
+}
+
+.trafancestorsbg{
+	background: #fbf9ec;
+}
+
+.verypaleparch{
+background: #fbf9ec;
+} 
+
+/* new tna menu - commented version at /css/tnamenu_ns4.css */
+#tna_nav_wrapper {display: none;}
+#tna_nav_wrapper_ns4 td {background-image:  url("/images/menu/tna_nav_bgrd.gif");background-repeat: repeat-x;}
+
+
+
+ 
+/*--------------------------------------------------------------------*/
+/* New style rules, authored by J Shindler and C Anderson */
+/*--------------------------------------------------------------------*/
+
+/*Header*/
+#hdr { background-color: #fff; width: 100%; clear:both; padding:0 0 0 0!important; margin:0.8em 0 0.8em 0!important; display:inline-block; position:relative; }
+#hdr ul.hidden {position:absolute; left:-999em; visibility:hidden; }
+#hdr-logo-holder {float: left;padding: 1.2em 0 0 2.083333%; width:33.020833%;  }
+#hdr #hdr-logo-holder img {border:none; width:100%;}
+#hdr-logo-holder a, #hdr-logo-holder a:hover{border:none;}
+#hdr-personalisation {padding: 0 0 3px 0!important; margin:0 0 0 0!important;  font-size:0.9em; display:inline}
+#hdr-searchform-holder { padding: 0.6em 0 0.6em 0; float:right!important; margin:0 0 0 0; display:inline-block; width:100%; float:right; }
+#hdr-searchform-holder form {margin:0; }
+#hdr-searchform-holder fieldset {border: none; padding:0; margin:0 0 0 0; float:right; width:100% }
+#hdr-searchform-holder fieldset legend { display:none;  padding:0 0 0 0!important; margin:0 0 0 0!important;}
+#hdr-searchform-holder label { display:none; padding:0; margin:0;} 
+#hdr-searchform-holder #search_text, #hdr-searchform-holder .search_text {border: 1px solid #999; background-image: url(/images/global/sitesearch-bg.gif); padding:3px 4px 4px 4px; margin:0 90px 0 0!important; height:16px;  color:#333; width: 38.5416%; font-family:Verdana, Geneva, sans-serif; float:right;}
+/*html>body #hdr-searchform-holder #search_text {*margin:-1px 0 0 0}*/
+#hdr-searchform-holder #search_button {margin:0 0 0 0; position:absolute!important; right:20px!important;}
+#hdr-searchform-holder #ctl00_search_button {margin:0 0 0 0; position:absolute!important; right:20px!important;}
+#hdr-searchform-holder #hdr-advanced-search {float:right; padding:3px 0 0 0; clear:both; font-size:0.9em;}
+#hdr a { color: #0066cc; font-weight:normal;}
+#hdr a:hover, #hdr a:focus, #hdr a:active {color: #cc0000; text-decoration: underline; font-weight:normal;}
+#hdr .cookieInfo  {padding: 0 0 3px 0!important; margin:0 0 0 0!important; font-size:0.9em;display:inline; }
+#hdr .accountLinks {float:right;}
+#hdr #searchTools {float:right; width:50%; padding:0 2% 0 0}
+
+/* IE6 specific rule */
+*html #hdr-searchform-holder {width:185px;}
+
+/*Menu*/
+#main-navigation {width:100%; background:#d9d9d9 url(/images/global/main-menu-bg.gif) bottom repeat-x;list-style:none;border-bottom:#c41d28 4px solid; overflow: auto;}
+#main-navigation div.accesskeys {position:absolute; left: -999em;}
+#main-navigation div.accesskeys ul li {display: inline; list-style: none;}
+#main-menu-wrapper {min-height: 2.5em; width:760px; margin:0 auto; background:#d9d9d9 url(/images/global/main-menu-bg.gif) bottom repeat-x;}
+
+
+
+#main-menu {line-height:1.7em; background:#e5e5e5; margin:0; padding:0; text-align:left;}
+#main-menu ul, #main-menu li {list-style:none; margin:0; padding:0;}
+#main-menu a {display:block; color:#000; text-decoration:none; padding:5px 20px 5px 20px;}
+#main-menu li {float:left; border-right:1px solid #a2a2a2; border-left:1px solid #fafafa;}
+#main-menu li ul {position:absolute; left:-999em; width:16em; font-weight:normal; background:#e7e7e7 url(/images/global/main-menu-child-bg.jpg) repeat-x bottom; border-top:#c41d28 4px solid; z-index:10000;}
+#main-menu li li {padding:0; width: 15.9em; border:solid #a2a2a2; border-width:0 1px 1px 1px;}
+#main-menu li ul a {padding:2px 8px 2px 8px; font-weight:normal; width:90%;}
+#main-menu li ul ul {margin:-1.75em 0 0 14em; border-top:1px solid #a2a2a2;}
+#main-menu li:hover ul ul, #main-menu li:hover ul ul ul, {left:-999em;}
+#main-menu li:hover ul, #main-menu li li:hover ul, #main-menu li li li:hover ul {left:auto;}
+#main-menu li:hover {background:#c41d28;}
+#main-menu li#first-left { border-left:none !important;}
+#main-menu li#last-right { border-right:none !important;}
+
+#main-menu a:focus, #main-menu a:hover {color:#fff;}
+#main-menu a:active {color:#000;}
+#main-menu li:hover a.parent-link {color:#fff;}
+#main-menu li li:hover a.child-link {color:#fff;}
+#main-menu a.current {background-color: #c41d28; color: #fff;}
+
+/* JavaScript controlled menu, for IE6 and keyboard navigation (by tab key) */
+#main-menu li.js-show a.parent-link {color:#fff;}
+#main-menu li li.js-show a.child-link {color:#fff;}
+#main-menu li.js-show ul {left:auto;}
+#main-menu li.js-show li ul {left:-999em;}
+#main-menu li li.js-show ul {left:auto;}
+#main-menu li.js-show {background:#c41d28;}
+
+/*Footer*/
+#ftr {clear:both; text-align: center; font-size:0.9em;border-top:5px solid #d9d9d9; margin:0; background:#fff;}
+#ftr a {padding: 0 10px 0 0; text-decoration: none; color: #000000;}
+#ftr a:hover {text-decoration: underline;}
+#ftr-footer-links-wrapper {margin: 0 20px 0 20px; list-style:none;}
+#ftr-footer-links-wrapper div {float: left; width: 229px; border-left: 1px dotted #e5e5e5; text-align:left;}
+#ftr-footer-links-wrapper h4 {padding:0 0 0 10px; margin:0 0 0 0; font-size:1.2em; font-weight:700; line-height:150%; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#ftr-footer-links-wrapper ul {list-style:none; list-style-image:none; list-style-position:outside; list-style-type:none; padding:0 0 0 10px; margin:0;}
+#ftr-footer-links-wrapper li {list-style:none; list-style-image:none; list-style-position:outside; list-style-type:none; padding: 0; margin: 0;}
+.ftr-footer-spacer {clear: both; height: 20px;}
+#ftr-footer-contact-bar {clear: both; background-color: #e5e5e5; padding:12px 0 12px 0; font-size:1em;}
+#ftr-footer-contact-bar a {text-decoration: underline; color:#0066cc;}
+#ftr-footer-contact-bar a:hover{color: #cc0000; text-decoration: underline;}
+
+/*Arrows*/
+.red-arrow-large {background:url(/images/arrow-red-large.gif) right no-repeat;  display: inline-block; padding:7px 6px 9px 6px; height:0px; width:0px;}
+.red-arrow {background:url(/images/arrow-red.gif) right no-repeat;  display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.white-arrow {background: url(/images/arrow-white.gif) right no-repeat; display: inline-block; padding:9px 6px 9px 6px; height:0px; width:0px;}
+.black-arrow {background: url(/images/arrow-black.gif) right no-repeat; display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.pink-arrow {background: url(/images/arrow-pink.gif) right no-repeat; display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.green-arrow {background: url(/images/arrow-green.gif) right no-repeat; display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.purple-arrow {background: url(/images/arrow-purple.gif) right no-repeat;display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+
+/* START OF Global Search */
+
+#linksToSearchForms {
+	display: none;
+}
+
+
+#tnaSearchWrapper {
+	position: relative;
+}
+
+#tnaSearchWrapper form {
+	padding: 0.5em;
+	display: none;
+	overflow: visible;
+}
+
+#linksToSearchForms {
+	margin-bottom: 1em;
+	color: #777;
+}
+
+#linksToSearchForms a {
+	margin: 0 5px;
+}
+
+#tnaSearchWrapper form label {
+	display: none;
+}
+
+#searchFormOptions {
+	background-color: #EFEFEF;
+	border: 1px solid #CDCDCD;
+	border-top-color: transparent;
+	width: 40%;
+	padding: 0.5em;
+	position: absolute;
+	left: 6em;
+	top: 2.6em;
+	*left: 6.75em;
+	*top: 2.2em;
+	text-align: left;
+	z-index: 999999;
+}
+
+#searchFormOptions.noJavaScript {
+	display: none;
+}
+
+
+#searchOptions li {
+	cursor: pointer;
+	color: #444;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+
+
+#searchOptions li:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+#otherSearches a:hover {
+	text-decoration: underline;
+}
+
+#containingBox {
+	display: inline-block;
+	border: 1px solid #898989;
+	border-radius: 0px 3px 3px 0px;
+	background-color: #fff;
+	padding: 0;
+	height: 23px;
+}
+
+#tnaSearch {
+	outline: none;
+	padding: 3px 3px 2px 3px;
+	border: 1px solid transparent;
+	margin: 0;
+	width: 14em;
+	color: #333;
+	vertical-align: top;
+	margin-right: -5px;
+}
+
+
+#searchOptionToggler {
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	margin-top: 4px;
+	padding-right: 16px;
+}
+
+#searchOptionToggler.collapsed {
+	width: 11.2em;
+	text-align: right;
+	margin-right: 0.4em;
+	cursor: pointer;
+	background: url("/images/global/more.png") no-repeat scroll right center transparent;
+}
+
+#searchOptionToggler.expanded {
+	width: 11.2em;
+	text-align: right;
+	cursor: pointer;
+	margin-right: 0.4em;
+	background: url("/images/global/less.png") no-repeat scroll right center transparent;
+}
+
+#userControls {
+color: #777;
+font-size: 0.9em;
+_position: relative;
+}
+
+
+	#userControls {
+		position: absolute;
+		top: 3em;
+		text-align: right;
+		right: 1em;
+	}
+
+	#tnaSearchWrapper form {
+		position: absolute;
+		top: -10px;
+		right: 10px;
+		_right: -450px;
+		width: 32em;
+		display: block;
+		background: rgb(254,254,254); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(239,239,239,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(100%,rgba(239,239,239,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(239,239,239,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+		border: 1px solid #CDCDCD;
+		border-top-color: #EFEFEF;
+		border-radius: 0 0 2px 2px;
+	}
+
+	#searchOptionToggler {
+		color: #383838;
+	}
+
+div.search-refinements {
+	display: none;
+}
+
+
+
+/*END OF Global search*/

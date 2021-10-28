@@ -1,0 +1,1175 @@
+/* paragraphs */
+p {
+	margin : 0px;
+	color: #000000;
+}
+.bodytext {
+	text-align: left;
+	margin : 3px 0px 10px 0px;
+}
+.mainbodytext {
+	margin : 3px 10px 10px 4%;
+	text-align: left;
+}
+.noleftbodytext{
+	margin : 3px 10px 10px 0px;
+	text-align: left;
+}
+.mainbodytexttable{
+	
+	margin : 3px 10px 10px 6.5%;
+	text-align: left;
+}
+.landingtext {
+	padding: 0px;
+	margin: 5px;
+	text-align: left;
+}
+p.resulttext {
+	padding: 5px 0px 1px 5px;
+	text-align: left;
+}
+.boldleft {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.parchlandingtext {
+	padding: 0px;
+	margin: 5px;
+	text-align: left;
+}
+p.bullet {
+	background-image: url(/images/global/bullet_red.gif) ;
+	background-position : left top;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 10px;
+	
+	margin: 0px 0px 0px 10px;
+}
+
+/* headings */
+.normalweight {
+	color : #000000;
+	font-weight: normal;
+	
+	text-decoration: none;
+	/*font-family:Verdana, Arial, Helvetica, sans-serif*/
+}
+h1 {
+	padding: 0px;
+	margin: 0px;
+}	
+h1.parchmentheading {
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+}
+h1.trafalgarheading {
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+	color: #fbf9ec;
+}
+h1.leftheading {
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+}
+h2 {
+	margin: 2px 0px 0px 0px;
+}
+h2.blackanddots{
+	margin: 5px 0px 3px 2px;
+	padding-bottom: 5px;
+	background :  url("/images/global/smalldots.gif") left bottom repeat-x;
+}	
+h3 {
+	color: #663333;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+h3.mainbodytext {
+	
+	margin : 3px 10px 0px 5%;
+	text-align: left;
+	color: #000000;
+}
+h3.bodytext{
+	margin : 5px 0px 0px 0px;
+}
+h3.redbold{
+	padding : 2px;
+	text-align: left;
+}
+
+/* lists */
+ul {
+	list-style: url("/battles/images/pixels/bullet.gif") outside;
+	padding : 0px;
+	margin: 0px;
+}
+ul ul {
+	margin-left: 10px;
+	padding-left: 0px;
+}
+ul.tabbedtable {
+	list-style: url("/battles/images/pixels/bullet.gif") outside;
+	padding : 0px 5px 0px 0px;
+	margin: 0px 0px 0px 20px;
+}
+ul.landingtext {
+	
+}
+ol {
+	list-style: decimal outside;
+}
+ol.letter {
+	list-style-type : lower-alpha;
+}
+ol.letter ol {
+	list-style-type : lower-roman;
+}
+li{
+	
+}
+
+/* miscellaneous */
+.clearboth{
+	clear : both;
+}
+blockquote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #663333;
+	margin: 0px 40px 0px 60px;
+}
+.bodymargin {
+	margin : 3px 10px 10px 5%;
+	clear: both;
+}
+.bodymargin2 {
+	margin : 3px 10px 10px 5%;
+	clear: left;
+}
+.bodymargindottybox{
+	margin: 3px 10px 10px 5%;
+	clear : none;
+}
+.margin5px {
+	padding: 5px;
+}
+hr {
+	border-top: thin dotted #000000;
+	border-right: none;
+	border-bottom: none;
+	border-left:none;
+	margin: 0px 0px 0px 5%;
+	height: 1px;
+	padding: 0px;
+	clear: both;
+}
+.thindots {
+	background :  url("/images/global/smalldots.gif") left bottom repeat-x ;
+}
+.thindotsattop {
+	background :  url("/images/global/smalldots.gif") left top repeat-x ;
+}
+.parchmentline {
+	background :  url("/battles/images/pixels/pixel_2px_e8e1bb.gif") left bottom repeat-x ;
+}
+
+.barbedline {
+	background :  url("/battles/images/pixels/pixel_wire_663333.gif") left bottom repeat-x ;
+}
+/* used on trafalgar roll results */
+.drawnline {
+	background :  url("/trafalgarancestors/images/pixels/pixel_drawn_line.gif") left bottom repeat-x ;
+	padding : 5px;
+}
+.thickline {
+	background :  url("/trafalgarancestors/images/pixels/pixel_thick_line.gif") left bottom repeat-x ;
+	padding : 5px;
+}
+
+.rolltop {
+	background :  url("/trafalgarancestors/images/pixels/rolltop.gif") left top repeat-x ;
+	padding : 5px;
+}
+.rollbottom {
+	background :  url("/trafalgarancestors/images/pixels/rollbottom.gif") left bottom repeat-x ;
+	padding : 5px;
+}
+h2.darkbrown {
+	color: #330000;
+}
+
+.parchdotsdivider {
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image : url(/images/pixels/dots_parch_trans.gif);
+}
+.creamfillerhome{
+	padding: 0px;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-right: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.creamfillerleft{
+	padding: 0px;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.creamfillercenter{
+	padding: 0px;
+	background-color: #fbf9ec;
+	border-bottom: 1px solid #663333;
+}
+.creamfillerright{
+	padding: 0px;
+	background-color: #fbf9ec;
+	border-right: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.khakibackground {
+	border-top : 0px;
+	border-right: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	border-left: 0px;
+}
+.rustbackground {
+	background-color: #663333;
+	border-top : 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+.caption {
+	padding : 5px 5px 10px 5px;
+	margin : 0px 0px 10px 5px;
+	border-bottom: thin dotted #000000;
+	display : block;
+}
+.captionportrait {
+	padding : 5px 5px 10px 5px;
+	margin : 0px 0px 10px 0px;
+	border-bottom: thin dotted #000000;
+	display : block;
+	width: 125px;
+}
+.captionthumb{
+	padding : 5px 5px 10px 5px;
+	margin : 3px 10px 10px 5%;
+}
+.captionthumbcent{
+	padding : 5px 5px 10px 5px;
+	margin : 0px 0px 0px 5px;
+	display : block;
+}
+.toprightdiv {
+	float: right; 
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 2px;
+}
+.portraitdiv{
+	float: right; 
+	width: 125px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	clear: right;
+}
+.lastamended{
+	padding: 5px 0px 5px 0px;
+}
+#leftmenu{
+	background-color: #fbf9ec;
+	padding: 0px 0px 10px 0px;
+}
+#logosearch {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#menu{
+	height: 38px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#breadcrumb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	color: #000000;
+	padding: 3px 0px 1px 0px;
+}
+#content {
+	clear: both;
+}
+#contentmain {
+	clear: both;
+}
+#contentmain2 {
+clear: left;
+}
+	
+/* tables */
+.tablewithoutline {
+	border: 1px solid #cccccc;
+	width: 94%;
+}
+.tablenooutline {
+	width: 95%;
+	clear: both;
+}
+th.resource {
+	
+	padding: 8px 0px 5px 0px;
+}
+th.rightalign {
+	padding: 0px 5px 0px 0px;
+	margin: 5px;
+}
+.topevent {
+	background :  url("/images/global/smalldots.gif") repeat-x left top  #fbf9ec;
+	color : #000000;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: solid 1px #ffffff;
+	border-left: 0px;
+	padding: 1px 0px 5px 0px;
+	margin: 3px 5px 3px 5px;
+	clear: both;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.event {
+	background-color: #fbf9ec;
+	color : #000000;
+	border-top: solid 1px #ffffff;
+	border-right: 0px;
+	border-bottom: solid 1px #ffffff;
+	border-left: 0px;
+	padding: 5px;
+	margin: 3px 0px 3px 0px;
+	clear: both;
+	font-family:Verdana, Arial, Helvetica, sans-serif
+}
+.bottomevent {
+	background :  url("/images/global/smalldots.gif") repeat-x left bottom #fbf9ec;
+	color : #000000;
+	border-top: solid 1px #ffffff;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	padding: 0px 0px 1px 0px;
+	margin: 3px 5px 3px 5px;
+	clear: both;
+}
+.jumpmenu{
+	background-color: #fbf9ec;
+	color : #000000;
+	padding: 5px;
+	clear: both;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: top;
+}
+.topdata {
+	background-color: #fbf9ec;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: solid 1px #e8e1bb;
+	border-left: 0px;
+	padding: 5px;
+	margin: 3px 0px 3px 0px;
+	clear: both;
+}
+.data {
+	background-color: #fbf9ec;
+	border-top: solid 1px #e8e1bb;
+	border-right: solid 1px #e8e1bb;
+	border-bottom: solid 1px #e8e1bb;
+	border-left: solid 1px #e8e1bb;
+	padding: 5px;
+	margin: 3px 0px 3px 0px;
+	clear: both;
+}
+.datadark {
+	border-top: solid 1px #ffffff;
+	border-right: 0px;
+	border-bottom: solid 1px #ffffff;
+	border-left: 0px;
+	padding: 5px;
+	margin: 3px 0px 3px 0px;
+	clear: both;
+}
+.bottomdata {
+	background-color: #fbf9ec;
+	border-top: solid 1px #e8e1bb;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	padding: 5px;
+	margin: 3px 0px 3px 0px;
+	clear: both;
+}
+
+/* links */
+a:visited{
+	font-family :  Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+	color : #000000;
+}
+a:link{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+	color : #000000;
+}
+a:hover{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+	color : #663333;
+}
+a:active{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+	color : #000000;
+}
+/* just for Opera 6 */
+.plainblackb {
+	
+}
+/* end of Opera 6 fix */
+a.plainblackb:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.plainblackb:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.plainblackb:hover{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: underline;
+	color : #000000;
+}
+a.plainblackb:active{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+h1 a:visited{
+	text-decoration: none;
+	color : #000000;
+}
+h1 a:link{
+	text-decoration: none;
+	color : #000000;
+}
+h1 a:active{
+	text-decoration: none;
+	color : #000000;
+}
+h1 a:hover{
+	text-decoration: none;
+	color : #cc0000;
+}
+h2 a:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+h2 a:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+h2 a:hover{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+h2 a:active{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+/*coded like this to work with ie6+, ie5+ - degrades in ie4 - dotty underline doesn't work. You can get it to work, but only if ie5 then has 2 underlines! */
+h2.redanddots a:visited{
+	
+	text-decoration: none;
+	color : #cc0000;
+	margin: 5px 0px 3px 2px;
+}
+h2.redanddots a:link{
+	
+	text-decoration: none;
+	color : #cc0000;
+	margin: 5px 0px 3px 2px;
+}
+h2.redanddots a:active{
+	
+	text-decoration: none;
+	color : #cc0000;
+	margin: 5px 0px 3px 2px;
+}
+h2.redanddots a:hover{
+	
+	text-decoration: none;
+	color : #000000;
+	margin: 5px 0px 3px 2px;
+}
+h2.resulttext {
+	padding: 5px 0px 1px 5px;
+	text-align: left;
+}
+h2.resulttext a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+h2.resulttext a:link{
+	color: #000000;
+	text-decoration: none;
+}
+h2.resulttext a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+h2.resulttext a:active{
+	color: #000000;
+	text-decoration: none;
+}
+a.h2heading:visited {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration : none;
+	padding: 0px;
+}
+a.h2heading:link {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration : none;
+	padding: 0px;
+}
+a.h2heading:hover {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration : underline;
+	padding: 0px;
+}
+a.h2heading:active {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration : none;
+	padding: 0px;
+}
+h3.bigblack {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+}	
+h3.bigblack  a:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+h3.bigblack  a:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+h3.bigblack  a:active{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+h3.bigblack a:hover{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	color: #663333;
+	text-decoration: none;
+}
+.topofpage {
+	
+}
+a.topofpage:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.topofpage:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.topofpage:hover{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: underline;
+	color : #000000;
+}
+a.topofpage:active{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+
+/* breadcrumbs */
+a.breadcrumbs:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	
+	text-decoration: underline;
+	color : #000000;
+}
+a.breadcrumbs:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	
+	text-decoration: underline;
+	color : #000000;
+}
+a.breadcrumbs:hover{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	
+	text-decoration: underline;
+	color : #000000; 
+}
+a.breadcrumbs:active{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	
+	text-decoration: underline;
+	color : #000000;
+}
+.currentcrumb {
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+}
+.breadcrumbsbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+}
+
+/* tabs and pagenumbering */
+.tabline {
+	background-image:   url("/images/tabs/line.gif");
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.tabbody {
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom : solid 1px #cccccc;
+	border-top: 0px;
+	padding: 0px 2px 0px 2px;
+	margin: 0px;
+	vertical-align: top;
+	text-align: center;
+}
+img.tabbutton {
+	text-align: left;
+	padding: 0px;
+	margin:  0px 3px 0px 0px;
+	vertical-align : bottom;
+}
+img.tabbuttonright {
+	text-align: right;
+	padding: 0px;
+	margin:  0px 0px 0px 3px;
+	vertical-align : bottom;
+}
+.pagenumbers {
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	text-align : right;
+}
+.pagebacknext {
+	padding: 15px 0px 10px 0px;
+}
+.currentpage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+}
+a.pagenumbers:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+	text-decoration:underline;
+}
+a.pagenumbers:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+	text-decoration:underline;
+}
+a.pagenumbers:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #663333;
+	text-decoration:underline;
+}
+a.pagenumbers:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	
+	color: #000000;
+	text-decoration:underline;
+}
+/*for Opera 6 */
+.nextbacktext {
+	
+}
+/*end of Opera 6 fix */
+a.nextbacktext:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.nextbacktext:link{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.nextbacktext:hover{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: underline;
+	color : #000000;
+}
+a.nextbacktext:active{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+
+/*lightbulbs */
+td.lightbulb {
+	border : thin dotted #000000;
+	padding: 5px;
+	vertical-align: top;
+	background-color: #ffffff;
+}
+div.lightbulb {
+	border :0px;
+	padding: 0px;
+	margin: 0px ;
+	background-color: #ffffff;
+	width: 97%;
+}
+.lightbulbparch {
+	border : thin dotted #000000;
+	/*height: 23px;*/
+	margin: 2px 3px 2px 0px;
+	vertical-align: top;
+	background-color: #fbf9ec;
+}
+
+/* images */
+.left { 
+    float: left;
+	padding: 0px 5px 0px 0px;
+	border-right: thin dotted #000000;
+	margin: 0px 7px 5px 0px;
+}
+img.nextbackarrows{
+	vertical-align: bottom;
+}
+img.lightbulb {
+	padding: 0px 0px 3px 0px;
+}
+img.thumbpopleft{
+	margin : 3px 10px 10px 5%;
+}
+img.thumbpopright{
+	margin : 0px 0px 0px 5px;
+}
+img.contexthelp{
+	vertical-align : middle;
+}
+img.valignmiddle{
+	vertical-align: middle;
+}
+img.valigntop{
+	vertical-align: top;
+}
+.rightbutton {
+	text-align: right;
+	margin: 0px 0px 2px 0px;
+	padding: 0px;
+}
+.gobuttonintable	{
+	padding: 2px 5px 0px 0px;
+}
+
+/* left hand nav*/
+.crimeanav {
+	background : url("/battles/images/menu_crim.gif") left middle;
+	background-repeat: repeat-y;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.egyptnav {
+	background : url("/battles/images/menu_egypt.gif") left middle;
+	background-repeat: repeat-y;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.ddaynav {
+	background : url("/battles/images/menu_dday.gif") left middle;
+	background-repeat: repeat-y;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.koreanav {
+	background : url("/battles/images/menu_korea.gif") left middle;
+	background-repeat: repeat-y;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.ancestorsnav {
+	background : url("/battles/images/menu_anc.gif") left middle;
+	background-repeat: repeat-y;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.readingnav {
+	background : url("/battles/images/menu_read.gif") left middle;
+	background-repeat: repeat-y;
+	background-color: #fbf9ec;
+	border-left: 1px solid #663333;
+	border-bottom: 1px solid #663333;
+}
+.level0 {
+	padding : 1px 2px 1px 4px;
+	background-color : #fbf9ec;
+}
+.level1 {
+	padding: 1px 0px 1px 0px;
+	background-color : #fbf9ec;
+}
+.level1lastinlist {
+	padding: 1px 0px 1px 0px;
+	margin: 0px 0px 7px 35px;
+	background-color : #fbf9ec;
+}
+.level2 {
+margin : 0px 0px 0px 10px;
+}
+.level2current {
+margin : 0px 0px 0px 10px;
+}
+
+a.leftmenu:visited{
+	font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	background-color : #fbf9ec;
+	color : #000000;
+	vertical-align: middle;
+}
+a.leftmenu:link{
+	font-family :  Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	background-color : #fbf9ec;
+	color : #000000;
+	vertical-align: middle;
+}
+a.leftmenu:hover{
+	font-family : Arial,  Verdana, Geneva,Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	background-color : #fbf9ec;
+	color : #663333;
+	vertical-align: middle;
+}
+.leftmenucurrent{
+	font-family :  Arial, Verdana, Geneva,Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	background-color : #fbf9ec;
+	color : #663333;
+	vertical-align: middle;
+}
+.leftmenusubcurrent{
+	font-weight : bold;
+	color: #000000;
+	background-color : #fbf9ec;
+}
+a.leftmenusubcurrent:visited{
+	font-weight : bold;
+	color: #000000;
+	text-decoration: none;
+	background-color : #fbf9ec;
+}
+a.leftmenusubcurrent:link{
+	font-weight : bold;
+	color: #000000;
+	text-decoration: none;
+	background-color : #fbf9ec;
+}
+a.leftmenusubcurrent:hover{
+	font-weight : bold;
+	color: #663333;
+	text-decoration: none;
+	background-color : #fbf9ec;
+}
+a.leftmenusubcurrent:active{
+	font-weight : bold;
+	color: #000000;
+	text-decoration: none;
+	background-color : #fbf9ec;
+}
+
+/* top menu */
+/* just for Opera 6*/
+.topmenu{
+	font-size:100%;
+}
+/* end of Opera 6 fix */
+a.topmenu:visited{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+	padding-top: 3px;
+}
+a.topmenu:link{
+	font-family :  Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+	padding-top: 3px;
+}
+a.topmenu:hover{
+	font-family :  Verdana, Geneva,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #cc0000;
+	padding-top: 3px;
+}
+a.topmenu:active{
+	font-family :  Verdana, Geneva,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+	padding-top: 3px;
+}
+.topmargin {
+	padding: 5px 0px 0px 0px;
+	text-align: right;
+}
+.nav {
+	background-image: url(/images/menu/redstripe.gif);
+	background-color: #ffffff;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.search{
+	padding: 0px;	
+	margin: 0px 0px 0px 10px;
+}
+/* end of topmenu */
+
+/* footer */
+#footer{
+	background-image: url("/images/global/biscuit_gradient.gif");
+	background-color: #ffffff;
+	background-repeat: repeat-x;
+	background-position: left top;
+	text-align: center;
+	border-top: solid 1px #000000;
+	margin: 10px 0px 0px 0px;
+	padding : 5px 0px 5px 0px;
+}
+.footerfiller{
+	background: transparent;
+	text-align: center;
+}
+.footertext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	padding: 0px;
+	margin: 5px;
+	text-align: center;
+}
+.footer {
+	
+}
+a.footer:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.footer:link{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.footer:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #000000;
+}
+a.footer:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color : #cc0000;
+}
+/* end of footer */
+
+.trafancestorsbg{
+	/*width: 94%; 
+	margin: 5px ; */
+}
+
+.mapbackgroundhp{
+	background:url(/trafalgarancestors/images/mainbackground3.gif); 
+	background-repeat:no-repeat; 
+	background-position:top right; 
+	height: 329px; 
+}
+.mapbackground{
+	background:url(/trafalgarancestors/images/mainbackground2.gif); 
+	background-repeat:no-repeat; 
+	background-position:top right; 
+	height: 329px; 
+}
+.verypaleparch{
+width: 90%; 
+margin: 5px 2% 0 2%; 
+} 
+
+/*tna menu styles. commented version at /css/tnamenu_commented.css*/
+#tna_nav_wrapper{margin:0;padding:0;background-image: url("/images/menu/tna_nav_bgrd.gif");background-repeat:repeat-x;display:block;text-align:center;font-size:1em;}
+#tna_nav_wrapper #hidden_label{position: absolute;left:-3000px;top:-3000px;}
+#tna_nav_wrapper_ns4{display:none;}
+#p7PMnav{margin:0px auto;height:38px;width:530px;padding:1px 0px 1px 0px;text-align:left;list-style:none}
+#p7PMnav ul{position:absolute;left:-9000px;}
+#p7PMnav ul ul{position:absolute;left:-9000px;}
+#p7PMnav ul ul ul{position:absolute;left:-9000px;}
+#home_li,#about_li,#visit_li,#research_li,#search_li,#services_li,#news_li,#shop_li{height:36px !important; width:36px !important;background-repeat:no-repeat;text-indent:-3000px;font-size:1px;}
+#p7PMnav li{list-style-type:none;margin:0;padding:0;list-style:none;}
+#p7PMnav ul{margin:0;padding:0;position:absolute;left:-9000px;z-index:10000 !important;border:1px #000000 solid;border-top:none;}
+#p7PMnav ul li{background-color:#FFFFFF;padding:0;border-top:1px #000000 solid;background-image:  url("/images/menu/redarrow_over.gif");background-repeat:no-repeat;background-position:0px 5px;}
+#p7PMnav a{display:block;text-decoration:none;color:#000000;line-height:1.2;}
+#p7PMnav ul a{padding:2px 5px 3px 15px;}
+#p7PMnav ul a:hover,#p7PMnav ul a:active,#p7PMnav ul a:focus,#p7PMnav ul .p7PMon,#p7PMnav ul .p7PMon:hover,#p7PMnav ul .p7PMon:active{color:#CB0D07;background-color:#F4F1E0;letter-spacing:.01px;background-image:  url("/images/menu/redarrow_over.gif");background-repeat:no-repeat;background-position:0px 5px;}
+#p7PMnav a:hover,#p7PMnav a:active,#p7PMnav a:focus,#p7PMnav .p7PMon{background-position:left bottom;}
+#p7PMnav ul .p7PMtrg,#p7PMnav ul .p7PMtrg:hover,#p7PMnav ul .p7PMtrg:active{background-image:  url("/images/menu/menu_more.gif");background-repeat:no-repeat;background-position:right top;}
+#p7PMnav .p7PMhide{left:-9000px;border:0;margin-left:0;margin-top:0;}
+#p7PMnav .p7PMshow{left:auto;z-index:20000 !important;}
+#p7PMnav li{float:left;}
+#p7PMnav ul li{float:none;}
+#p7PMnav ul,#p7PMnav ul li{width:225px;}
+#p7PMnav ul ul,#p7PMnav ul li ul li{width:200px;}
+#p7PMnav #home_li{width:46px !important;background-image:  url("/images/menu/home.gif");}
+#p7PMnav #about_li{width:48px !important;background-image:  url("/images/menu/about.gif");}
+#p7PMnav #visit_li{width:39px !important;background-image:  url("/images/menu/visit.gif");}
+#p7PMnav #research_li{width:140px !important;background-image:  url("/images/menu/research.gif");}
+#p7PMnav #search_li{width:73px !important;background-image:  url("/images/menu/search.gif");}
+#p7PMnav #services_li{width:87px !important;background-image:  url("/images/menu/services.gif");}
+#p7PMnav #news_li{width:44px !important;background-image:  url("/images/menu/news.gif");}
+#p7PMnav #shop_li{width:48px !important;background-image:  url("/images/menu/shop.gif");}
+
+div#personal{font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-weight:bold;text-decoration:none; padding:0 4px 0 0; font-weight: bold; color: #666633; text-align:right; }
+
+div#personal a {font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-weight:bold;text-decoration:none; color: #0066CC; text-decoration: underline; margin:0; margin:0; font-weight: bold; }
+div#personal a:visited {color: #762123; text-decoration: underline;}
+div#personal a:hover   {color: #cc0000;}
+
+/*--------------------------------------------------------------------*/
+/* New style rules, authored by J Shindler and C Anderson */
+/*--------------------------------------------------------------------*/
+
+/* IE6 specific fix */
+*html #hdr-searchform-holder {width:185px;}
+
+
+
+#content-column-features #ufo,#content-column-features #world-war-1,#content-column-features #magna{padding:0 0 40px 0;}
+#content-column-research #military {padding:10px 0 130px 0;}
+
+/*Arrows*/
+.red-arrow-large {background:url(/images/arrow-red-large.gif) right no-repeat;  display: inline-block; padding:7px 6px 9px 6px; height:0px; width:0px;}
+.red-arrow {background:url(/images/arrow-red.gif) right no-repeat;  display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.white-arrow {background: url(/images/arrow-white.gif) right no-repeat; display: inline-block; padding:9px 6px 9px 6px; height:0px; width:0px;}
+.black-arrow {background: url(/images/arrow-black.gif) right no-repeat; display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.pink-arrow {background: url(/images/arrow-pink.gif) right no-repeat; display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.green-arrow {background: url(/images/arrow-green.gif) right no-repeat; display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.purple-arrow {background: url(/images/arrow-purple.gif) right no-repeat;display: inline-block; padding:7px 6px 8px 6px; height:0px; width:0px;}
