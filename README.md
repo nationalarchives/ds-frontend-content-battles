@@ -34,6 +34,13 @@ _files not in the repo used/embedded in the content_
  - /images/tabs/tab_transcript_on.gif
  - /images/tabs/tab_zoom_off.gif
  - /images/tabs/tab_zoom_on.gif
+ - /includes/battles/battlesfooter.inc
+ - /includes/battles/battlesheader.inc
+ - /includes/footer.inc
+ - /includes/google-analytics-gtm-body.inc
+ - /includes/google-analytics-gtm-head.inc
+ - /includes/logosearch.inc
+ - /includes/menu.inc
  - /script/print.js
  - /script/utils.js
  - /script/zoomify.js
